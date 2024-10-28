@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Eye - Vehicle Info Lookup</title>
+    <link rel="stylesheet" href="st.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="ApiEye.png" alt="Api Eye Logo">
+        </div>
+        <div class="vin-input">
+            <input type="text" id="vinInput" placeholder="1HGCM82633A123456">
+        </div>
+        <button onclick="fetchVehicleInfo()">Get Vehicle Info</button>
+        <div class="vehicle-info">
+            <pre id="vehicleInfo">Vehicle Information:</pre>
+        </div>
+    </div>
+    <script src="vin.js"></script>
+</body>
+</html>
